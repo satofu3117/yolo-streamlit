@@ -15,7 +15,7 @@
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/your-username/yolo-streamlit.git
+git clone https://github.com/satofu3117/yolo-streamlit.git
 cd yolo-streamlit
 ```
 
@@ -76,14 +76,17 @@ cd yolo-streamlit
 ## トラブルシューティング
 
 ### カメラが動作しない場合
+
 - ブラウザのカメラアクセス許可を確認
 - カメラが正しく接続されているか確認
 
 ### 検出が遅い場合
+
 - Dockerのメモリ割り当てを増やす
 - 検出信頼度の閾値を調整
 
 ### エラーが発生する場合
+
 - ログを確認
   ```bash
   docker-compose logs
